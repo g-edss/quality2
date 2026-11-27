@@ -1,0 +1,33 @@
+.login {
+  min-height: 100vh; display: grid; place-items: center;
+  background:
+    radial-gradient(1200px 500px at 50% -10%, var(--brand-100), transparent),
+    linear-gradient(160deg, var(--gray-100), var(--gray-200));
+  padding: 24px;
+}
+.panel {
+  width: 100%; max-width: 380px; background: #fff;
+  border: 1px solid var(--border-soft); border-radius: 16px;
+  box-shadow: var(--shadow-md); padding: 32px 28px;
+}
+.brand { text-align: center; margin-bottom: 24px; }
+.mark {
+  width: 56px; height: 56px; margin: 0 auto 14px; border-radius: 14px;
+  background: linear-gradient(180deg, var(--brand-700), var(--brand-800));
+  display: grid; place-items: center; box-shadow: var(--shadow);
+}
+.brand h1 { font-size: 19px; }
+.brand p { font-size: 12px; color: var(--gray-500); margin-top: 4px; }
+
+.form { display: flex; flex-direction: column; gap: 14px; }
+.session-message { padding: 10px 12px; border-radius: 8px; background: var(--brand-100); color: var(--brand-800); font-size: 12px; line-height: 1.5; }
+.form label { display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 600; color: var(--gray-700); }
+.form input {
+  padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px;
+  font: inherit; font-size: 14px; outline: none;
+}
+.form input:focus { border-color: var(--brand-500); box-shadow: 0 0 0 3px var(--brand-100); }
+.btn-primary { justify-content: center; margin-top: 4px; padding: 11px; }
+.hint { text-align: center; font-size: 11px; margin-top: 2px; }
+.recuperar { text-align: center; font-size: 12px; color: var(--gray-600); }
+.pie { margin-top: 20px; font-size: 11px; }
